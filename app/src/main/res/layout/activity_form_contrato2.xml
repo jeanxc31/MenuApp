@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/posiblefon1"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Form_Contrato2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtid2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/formtituloborde"
+                android:gravity="center"
+                android:shadowColor="#AA1717"
+                android:text="@string/txtid2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTintMode="src_in"
+                    android:text="@string/tvinf"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvnom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15sp"
+                        android:text="@string/tvnom"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="32sp"
+                        android:text="@string/tvap"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvcel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28sp"
+                        android:text="@string/tvcel"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35sp"
+                        android:text="@string/tvemail"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <LinearLayout
+                        android:layout_width="364dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvserv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="35sp"
+                            android:layout_weight="1"
+                            android:text="@string/tvsolic"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvcoment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25sp"
+                        android:text="@string/tvtipo"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvprobl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50sp"
+                        android:text="@string/tvcoment"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvciudad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40sp"
+                        android:text="@string/tvdom"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvdepartamento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55sp"
+                        android:text="@string/tvdepartamento"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvprovincia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50sp"
+                        android:text="@string/tvprovincia"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvdistrito"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="45sp"
+                        android:text="@string/tvdistrito"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tvreferencia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60sp"
+                        android:text="@string/tvreferencia"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvubica"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60sp"
+                        android:text="@string/tvubica"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/hnom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:backgroundTint="#000000"
+                        android:backgroundTintMode="src_in"
+                        android:drawableLeft="@drawable/icon11"
+                        android:ems="10"
+                        android:hint="@string/hnom"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#A6000000"
+                        android:textSize="14sp"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+
+                    <EditText
+                        android:id="@+id/hap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:backgroundTint="#000000"
+                        android:backgroundTintMode="src_in"
+                        android:drawableLeft="@drawable/icon11"
+                        android:ems="10"
+                        android:hint="@string/hap"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#A6000000"
+                        android:textSize="14sp"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+
+                    <EditText
+                        android:id="@+id/hcel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:backgroundTint="#000000"
+                        android:backgroundTintMode="src_in"
+                        android:drawableLeft="@drawable/icon2"
+                        android:ems="10"
+                        android:hint="@string/hcel"
+                        android:inputType="phone"
+                        android:textColor="#000000"
+                        android:textColorHint="#A6000000"
+                        android:textSize="14sp"
+                        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                    <EditText
+                        android:id="@+id/hemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5sp"
+                        android:autofillHints=""
+                        android:backgroundTint="#000000"
+                        android:backgroundTintMode="src_in"
+                        android:drawableLeft="@drawable/icon3"
+                        android:ems="10"
+                        android:hint="@string/hemail"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="48dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#A6000000"
+                        android:textSize="14sp"
+                        tools:ignore="DuplicateSpeakableTextCheck" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvsol2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15sp"
+                            android:layout_weight="1"
+                            android:text=""
+                            android:textColor="#000000"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/splistado"
+                        android:layout_width="277dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="20sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <EditText
+                        android:id="@+id/hcoment"
+                        android:layout_width="match_parent"
+                        android:layout_height="83dp"
+                        android:backgroundTint="#000000"
+                        android:backgroundTintMode="src_in"
+                        android:drawableLeft="@drawable/icon4"
+                        android:ems="10"
+                        android:hint="@string/hcoment"
+                        android:inputType="textPersonName"
+                        android:textColor="#000000"
+                        android:textColorHint="#A6000000"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/hdom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#000000"
+                        android:backgroundTintMode="src_in"
+                        android:drawableLeft="@drawable/icon5"
+                        android:ems="10"
+                        android:hint="@string/hdom"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#A6000000"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/departamentols"
+                        android:layout_width="277dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="18sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <Spinner
+                        android:id="@+id/provincials"
+                        android:layout_width="277dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="18sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Spinner
+                        android:id="@+id/distritols"
+                        android:layout_width="277dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="15sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    <EditText
+                        android:id="@+id/hreferencia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35sp"
+                        android:backgroundTint="#000000"
+                        android:backgroundTintMode="src_in"
+                        android:drawableLeft="@drawable/icon7"
+                        android:ems="10"
+                        android:hint="@string/hreferencia"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#A6000000"
+                        android:textSize="14sp" />
+
+                    <Spinner
+                        android:id="@+id/spubicacion2"
+                        android:layout_width="277dp"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="20sp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView3"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/estilobotonform"
+                    android:backgroundTintMode="add"
+                    android:foregroundTint="#FF5722"
+                    android:onClick="Envform2"
+                    android:text="@string/btn1"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    app:strokeColor="#FFEB3B"
+                    tools:ignore="TextContrastCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

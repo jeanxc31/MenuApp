@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "351622435050",
+    "firebase_url": "https://csoft2022-a395c-default-rtdb.firebaseio.com",
+    "project_id": "csoft2022-a395c",
+    "storage_bucket": "csoft2022-a395c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351622435050:android:59744a279589ba332f4793",
+        "android_client_info": {
+          "package_name": "com.ucv.menuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351622435050-9ol740rubjd7v0u5dffc7ns8ava7bmii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPoJGra5PukpKoeeGdY2Pq6G68IgIwzLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351622435050-9ol740rubjd7v0u5dffc7ns8ava7bmii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
